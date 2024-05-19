@@ -1,4 +1,4 @@
-# Graph Algorithms Implementation
+# Graphs
 This project involves the implementation of a class for representing graphs and various algorithms on graphs. The main files are:
 
 - `graph.cpp` - A class representing a graph using an adjacency matrix. The graph can be directed or undirected, and can also have weights. An undirected graph is represented by a symmetric matrix with zeros along the diagonal.
