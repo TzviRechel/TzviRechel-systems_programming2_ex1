@@ -14,7 +14,7 @@ using namespace std;
         {0, 1, 0},
         {1, 0, 1}, 
         {0, 1, 0}};   
-        g.loadGraph(graph)
+        g.loadGraph(graph);
         CHECK(g.numOfVertices() == 3);
         auto matrix = g.getMatrix();
         CHECK(matrix.size() == 3);
